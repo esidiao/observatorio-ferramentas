@@ -117,5 +117,14 @@ fatiador; os critérios de serviço são declarativos, inclusive os compostos
 
 ## Licença e autoria
 
-Edson Sidião de Souza Júnior — I9 Educar. Mesmos termos dos observatórios
-irmãos; ver `DIREITOS.md` em cada um deles.
+Edson Sidião de Souza Júnior — I9 Educar. Ver [DIREITOS.md](DIREITOS.md), que
+separa o que é obra do autor (o desenho das guardas) do que não é (os códigos
+de classificação do CNES, que são do Ministério da Saúde).
+
+`registro_autoral.json` guarda o resumo SHA-256 de cada arquivo autoral,
+calculado sobre o conteúdo com fim de linha normalizado, e o commit que ancora a
+data. Para conferir, em qualquer sistema:
+
+```bash
+python registro_autoral.py --verificar
+```
