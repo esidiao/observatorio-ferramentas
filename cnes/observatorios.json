@@ -1,0 +1,46 @@
+{
+ "_leia": [
+  "O que cada observatório quer da base do CNES. Declarativo de propósito: o",
+  "fatiador não tem nenhum código específico de projeto, e acrescentar um",
+  "observatório novo é acrescentar uma entrada aqui.",
+  "",
+  "Os nomes de arquivo e os códigos NÃO foram escolhidos aqui — são os que o",
+  "`etl/extrair_cnes.py` de cada repositório espera encontrar no cache. O",
+  "fatiador confere essa correspondência antes de baixar qualquer coisa (ver",
+  "`conferir_spec`), porque uma fatia gravada com o nome errado não acusa erro:",
+  "o extrator simplesmente a ignora e rebaixa 834 MB."
+ ],
+
+ "fonoaudiologia": {
+  "repo": "observatorio-fonoaudiologia",
+  "vinculos": { "arquivo": "vinculos_fono.csv", "cbo_prefixo": "2238" },
+  "servicos": {
+   "arquivo": "servicos_fono.csv",
+   "criterios": [
+    { "servico": "107" },
+    { "servico": "135", "classificacoes": ["005", "010"] }
+   ]
+  },
+  "equipes": null
+ },
+
+ "psicologia": {
+  "repo": "observatorio-psicologia",
+  "vinculos": { "arquivo": "vinculos_psicologia.csv", "cbo_prefixo": "2515" },
+  "servicos": {
+   "arquivo": "servicos_psicossocial.csv",
+   "criterios": [{ "servico": "115" }]
+  },
+  "equipes": null
+ },
+
+ "odontologia": {
+  "repo": "observatorio-odontologia",
+  "vinculos": { "arquivo": "vinculos_odontologia.csv", "cbo_prefixo": "2232" },
+  "servicos": {
+   "arquivo": "servicos_bucais.csv",
+   "criterios": [{ "servico": "114" }, { "servico": "157" }]
+  },
+  "equipes": "equipes.csv"
+ }
+}
