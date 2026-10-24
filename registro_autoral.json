@@ -1,0 +1,66 @@
+{
+  "autor": {
+    "nome": "Edson Sidião de Souza Júnior",
+    "contato": "sidiao@i9educar.com",
+    "lattes": "http://lattes.cnpq.br/9464330669014306",
+    "vinculo": "I9 Educar — Consultoria em Gestão Educacional",
+    "qualificacao": "Farmacêutico (UFG), Mestre e Doutor em Medicina Tropical (UFG); avaliador ad hoc do INEP/MEC há mais de quinze anos e avaliador do Conselho Estadual de Educação de Goiás.",
+    "obra": "Ferramentas dos Observatórios Nacionais da Formação",
+    "descricao": "Ferramentas de manutenção dos observatórios nacionais de formação: leitura única da base do CNES para os projetos irmãos, com as guardas que tornam visível cada modo de falhar em silêncio, e a rotina de reconsolidação de um observatório sobre competência nova."
+  },
+  "registrado_em": "2026-10-24T12:05:03+00:00",
+  "git_commit_ancora": "ed49bc941b1bee3b6afccffff94d904ee21cc984",
+  "algoritmo": "SHA-256 sobre o conteúdo com fim de linha normalizado em LF",
+  "fundamento": "Lei 9.610/1998 (direitos autorais) e Lei 9.609/1998 (programa de computador). O resumo combinado é impressão digital única do conjunto; o commit Git ancora a data no histórico versionado.",
+  "como_verificar": [
+    "1. Obtenha os arquivos listados em 'arquivos'.",
+    "2. Normalize o fim de linha de cada um para LF.",
+    "3. Calcule o SHA-256 de cada arquivo normalizado e compare com o campo 'sha256' da respectiva entrada.",
+    "4. Para o conjunto: concatene, na ordem em que aparecem em 'arquivos', o caminho seguido do seu resumo, sem separador, e calcule o SHA-256 do resultado. Deve ser igual a 'sha256_combinado'.",
+    "5. Ou, direto: rode `python registro_autoral.py --verificar`.",
+    "6. O commit indicado em 'git_commit_ancora' comprova a data no histórico do repositório."
+  ],
+  "natureza": "Declaração datada de conteúdo, com anterioridade ancorada no histórico do repositório. Permite comparar uma cópia com o original arquivo a arquivo. Não é registro em cartório nem depósito no INPI, e não substitui nenhum dos dois.",
+  "escopo": "Todo o conteúdo deste repositório, que é integralmente autoral: não há aqui dado público nem biblioteca de terceiros. Os códigos de CBO e de serviço declarados em cnes/observatorios.json são classificações do Ministério da Saúde, não obra do autor; o que é autoral é o critério de seleção e o recorte.",
+  "n_arquivos": 6,
+  "bytes_totais": 43673,
+  "sha256_combinado": "3ad5eaf892d75ad0c97eb4f90d3182b9dbb5b7fffed76d0bb690de7d0f1dbc5d",
+  "arquivos": [
+    {
+      "arquivo": "README.md",
+      "bytes": 6190,
+      "linhas": 131,
+      "sha256": "d15950b8f602a6731235131d4c4d7ced3fe93a7570638a090b6df7e6cee025b5"
+    },
+    {
+      "arquivo": "DIREITOS.md",
+      "bytes": 3839,
+      "linhas": 84,
+      "sha256": "441f587fcc9dcfcc67a5ca7b53ee80876836eb69c16e88a9c81f51af58d00338"
+    },
+    {
+      "arquivo": "registro_autoral.py",
+      "bytes": 9195,
+      "linhas": 235,
+      "sha256": "c3c5f74f2338032f7d9584ef05d656a1d6aa3e5cfc59cd05b35b630a725f4506"
+    },
+    {
+      "arquivo": "cnes/fatiar.py",
+      "bytes": 20948,
+      "linhas": 485,
+      "sha256": "f7deb5dc6a30e9152169bdb9d003b351fc4135157959c7c743423b4f7bab6c37"
+    },
+    {
+      "arquivo": "cnes/observatorios.json",
+      "bytes": 1489,
+      "linhas": 47,
+      "sha256": "9d9a0f134b957a26258150da6da14453e9d5585dec7e5e401c318d2181df9051"
+    },
+    {
+      "arquivo": "cnes/reconsolidar.sh",
+      "bytes": 2012,
+      "linhas": 57,
+      "sha256": "b3a92c7e92915573e2b2fad60fed66f6b6c5bcef736eca768a101052d578a1ab"
+    }
+  ]
+}
